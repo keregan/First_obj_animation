@@ -15,6 +15,7 @@ pygame.draw.rect(sc, WHITE, (10, 10, 50, 100), 2)
 pygame.display.update()
 
 gm_run = True
+# gm_run = True
 while gm_run:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
